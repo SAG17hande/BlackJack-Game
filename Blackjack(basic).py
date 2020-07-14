@@ -191,7 +191,7 @@ while playon:
         
         if player_hand.value > 21:
             player_busts(player_hand,dealer_hand,player_money)
-            break
+            
     
         # If Player hasn't busted, play Dealer's hand        
         if player_hand.value <= 21:
